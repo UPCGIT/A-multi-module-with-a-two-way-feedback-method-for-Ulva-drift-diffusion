@@ -1,0 +1,9 @@
+function [speNtempMax,speEtempMax]=CountMaxSpeed(ti,dataNwave,dataEwave,wc,dataNwind,dataEwind)
+speNtemplist=reshape(((dataNwave(:,:,ti)+wc*dataNwind(:,:,ti))/2),1,[]);
+speEtemplist=reshape(((dataEwave(:,:,ti)+wc*dataEwind(:,:,ti))/2),1,[]);
+speNtemplist=speNtemplist(speNtemplist<10);
+speEtemplist=speEtemplist(speEtemplist<10);
+speNtemplist=sort(abs(speNtemplist));
+speEtemplist=sort(abs(speEtemplist));
+speNtempMax=speNtemplist(round(length(speNtemplist)*0.9));
+speEtempMax=speEtemplist(round(length(speEtemplist)*0.9));
