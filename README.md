@@ -21,5 +21,5 @@ AN ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING
 OUT OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE. 
 # Sample Data
 Sample Data Connection：https://pan.baidu.com/s/1z8H9cqSQB3oR73UDVIvK4g?pwd=1234
-The sample data exceeds 30GB. If you have any further questions, please feel free to contact us via email.
+The sample data exceeds 30GB. If you have any further questions, please contact us.
 · 
